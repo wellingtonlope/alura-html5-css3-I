@@ -1,5 +1,5 @@
 /*h1 é um seletor do css e font-size é o estilo que será aplicado*/
-h1 {
+main h1 {
 	font-size: 60px;
 }
 h2 {
