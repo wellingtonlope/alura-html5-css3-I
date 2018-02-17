@@ -2,17 +2,28 @@ body {
 	/*Testa as fontes da esquerda para direita, verifica se o usuário possui a fonte*/
 	font-family: "Crimson Text", "Times New Roman", serif;
 	background-color: #F2FFFC;
-	font-size: 120%;
+	font-size: 20px;
+	/*espaço entre as linhas*/
+	line-height: 1.5;
 }
 
 h1, h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
+h2 {
+	font-size: 40px;
+}
+
+/*h1 é um seletor do css e font-size é o estilo que será aplicado*/
 main h1 {
 	text-align: center;
 	background-color: #851944;
 	color: #FFF;
+	font-size: 60px;
+	padding: 25px;
+	margin: 0;
+	border-bottom: 10px solid black;
 }
 
 p {
@@ -50,4 +61,9 @@ main a {
 aside a {
 	color: inherit;
 	font-family: "Open Sans Condensed", sans-serif;
+}
+
+div {
+	width: 720px;
+	margin: auto;
 }
