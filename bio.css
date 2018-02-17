@@ -7,7 +7,3 @@ blockquote {
 	box-sizing: border-box;
 	margin: 0;
 }
-
-blockquote, aside, footer {
-	padding: 20px;
-}

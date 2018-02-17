@@ -12,7 +12,7 @@ h1, h2 {
 }
 
 h2 {
-	font-size: 40px;
+	font-size: 30px;
 }
 
 /*h1 é um seletor do css e font-size é o estilo que será aplicado*/
@@ -28,9 +28,11 @@ main h1 {
 
 p {
 	text-align: justify;
+	margin: 20px 0;
 }
 
 blockquote {
+	margin: 20px 40px;
 	background-color: #D9E5E3;
 }
 
@@ -57,13 +59,31 @@ main a {
 	color: #851944;
 }
 
+aside h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
 /* inherit: esse valor faz com que a propriedade assuma o valor que foi definino em seu pai*/
 aside a {
 	color: inherit;
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
-div {
+main div {
 	width: 720px;
 	margin: auto;
+	padding: 30px 0;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+blockquote, aside, footer {
+	padding: 20px;
 }
