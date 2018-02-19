@@ -25,9 +25,9 @@
 	<body>
 		<!--tag que indica o conteudo principal do site-->
 		<main>
-			<h1>Sobre mim</h1> <!--h1 para titulo principal-->
+			<h1 class="titulo-principal">Sobre mim</h1> <!--h1 para titulo principal-->
 
-			<div>
+			<div class="conteudo-principal">
 				<!--em == italico-->
 				<p>Moro em São Paulo mas atendo clientes do mundo todo. Sou conhecido por fazer produtos de <em>qualidade</em>, <em>durabilidade</em> e que <em>agregam valor</em> para meus clientes.</p> <!--p para paragrafo-->
 				<p>Trabalho usando a web como plataforma, ou seja, respiro HTML5, CSS3 e JavaScript (ou melhor: ECMASCript). Crio sites para todos, seguindo as principais diretivas de acessibilidade, responsividade e web semântica, sem descuidar da qualidade de código.</p>
@@ -35,7 +35,7 @@
 				<h2>Como trabalho</h2><!--subtitulo da pagina-->
 
 				<!--tag que indica citação-->
-				<blockquote>
+				<blockquote class="citacao">
 					<p>João é o melhor desenvolvedor front-end com quem já trabalhei. Muito eficiente e muito capaz. Recomendo sem dúvidas!</p>
 					<!--indicar o autor da citação-->
 					<cite>José Souza, Fiat</cite>
@@ -48,7 +48,7 @@
 
 				<h2>Experiência</h2>
 
-				<blockquote>
+				<blockquote class="citacao">
 					<p>João domina as tecnologias como ninguém. Eu apresentava um problema, ele tinha na ponta da língua a solução mais adequada com as tecnologias mais recentes.</p>
 					<cite>Manoel Santos, Petrobrás</cite>
 				</blockquote>
@@ -66,7 +66,8 @@
 
 		<!--img para carregar imagens e atributo alt para informar para ferramentas de busca e pessoas com problema de visão saber qual o significado da imagem-->
 		<img src="eu.jpg" alt="Foto de João da Silva"/>
-		<aside>
+		<!--tag que indica a complementação do conteudo principal-->
+		<aside class="navegacao-site">
 			<!--Na tag nav ele é o titulo principal-->
 			<h1>João da Silva</h1>
 			<!--tag que indica um menu de navegação pelo site-->
@@ -79,7 +80,13 @@
 					<li><a href="contato.html">Contato</a></li>
 				</ul>
 			</nav>
+			<ul>
+				<li class="icone-rede-social"><a href="http://github.com/joaodasilva"><img src="github.png" alt="icone do github"></a></li>
+				<li class="icone-rede-social"><a href="http://twitter.com/joaodasilva"><img src="twitter.png" alt="icone do twitter"></a></li>
+				<li class="icone-rede-social"><a href="http://linkedin.com/joaodasilva"><img src="linkedin.png" alt="icone linkedin"></a></li>
+			</ul>
 		</aside>
+		
 		<!--tag para rodape-->
 		<footer>
 			<!--& para utilizar simbolor especiais no html-->
