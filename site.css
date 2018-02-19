@@ -13,6 +13,7 @@ h1, h2 {
 
 h2 {
 	font-size: 30px;
+	clear: both;
 }
 
 /*h1 é um seletor do css e font-size é o estilo que será aplicado*/
@@ -37,16 +38,32 @@ p {
 	background-color: #D9E5E3;
 }
 
+.citacao-fiat {
+	float: right;
+}
+
+.citacao-petrobras {
+	float: left;
+}
+
+cite {
+	font-style: italic;
+	float: right;
+	display: block;
+}
+
 .navegacao-site {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
 	padding: 20px;
 	text-align: center;
+	box-sizing: border-box;
 }
 
 footer {
 	background-color: #000;
 	color: #F2FFFC;
+	clear: both;
 }
 
 article {
@@ -68,6 +85,23 @@ main a {
 	color: #851944;
 }
 
+main {
+	float: left;
+	width: 85%;
+}
+
+.navegacao-site, .foto-joao {
+	float: right;
+	width: 15%;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+	box-sizing: border-box;
+}
+
+.navegacao-site {
+	clear: right;
+}
+
 .navegacao-site h1 {
 	font-size: 30px;
 	margin-bottom: 25px;
@@ -80,7 +114,7 @@ main a {
 	text-transform: lowercase;
 }
 
-.conteudo-principal {
+.container {
 	width: 720px;
 	margin: auto;
 	padding: 30px 0;
