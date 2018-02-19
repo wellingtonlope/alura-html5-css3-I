@@ -24,6 +24,7 @@ h2 {
 	padding: 25px;
 	margin: 0;
 	border-bottom: 10px solid black;
+	text-transform: uppercase;
 }
 
 p {
@@ -76,6 +77,7 @@ main a {
 .navegacao-site a {
 	color: inherit;
 	font-family: "Open Sans Condensed", sans-serif;
+	text-transform: lowercase;
 }
 
 .conteudo-principal {
@@ -100,6 +102,25 @@ blockquote, aside, footer {
 
 .icone-rede-social {
 	display: inline-block;
+}
+
+.icone-rede-social a{
+	display: block;
+	height: 40px;
+	width: 40px;
+	font-size: 0;
+}
+
+.icone-github {
+	background-image: url(github.png);
+}
+
+.icone-twitter {
+	background-image: url(twitter.png);
+}
+
+.icone-linkedin {
+	background-image: url(linkedin.png);
 }
 
 .leia-mais {
