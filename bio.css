@@ -1,9 +1,0 @@
-
-blockquote {
-	padding: 16px;
-	border: 10px solid #C2CCCA;
-	width: 250px;
-	/*border-box calcula começando das bordas*/
-	box-sizing: border-box;
-	margin: 0;
-}
