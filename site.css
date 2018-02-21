@@ -60,21 +60,20 @@ cite {
 	box-sizing: border-box;
 }
 
-footer {
+.rodape {
 	background-color: #000;
 	color: #F2FFFC;
 	clear: both;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 }
 
 article {
 	padding-bottom: 30px;
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 20px;
-}
-
-article footer {
-	background-color: initial;
-	color: initial;
 }
 
 nav a {
@@ -92,14 +91,23 @@ main {
 
 .navegacao-site, .foto-joao {
 	float: right;
-	width: 15%;
 	border-left: 10px solid black;
 	border-bottom: 10px solid black;
 	box-sizing: border-box;
 }
 
+/*position: absolute == relativo a janela*/
+.foto-joao {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
 .navegacao-site {
 	clear: right;
+	width: 15%;
+	position: relative;
+	top: 310px;
 }
 
 .navegacao-site h1 {
@@ -117,7 +125,8 @@ main {
 .container {
 	width: 720px;
 	margin: auto;
-	padding: 30px 0;
+	padding: 40px 0;
+	padding-bottom: 80px;
 }
 
 strong {
